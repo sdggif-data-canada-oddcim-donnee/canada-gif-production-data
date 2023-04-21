@@ -1,0 +1,74 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Tidal power turbine",
+                "Wind power turbine",
+                "Solar",
+                "Other types of electricity generation",
+                "Total hydro, tidal, wind, solar and other generation",
+                ""
+              ]
+            },
+            "title": "Type of electricity generation"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "7-2-1",
+  "title": "Renewable energy share in the total final energy consumption"
+}

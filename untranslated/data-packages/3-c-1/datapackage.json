@@ -1,0 +1,94 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of provider",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Audiologists",
+                "Chiropractors",
+                "Dental assistants",
+                "Dental hygienists",
+                "Dentists",
+                "Dietitians",
+                "Environmental public health professionals",
+                "Family medicine",
+                "Genetic counsellors",
+                "Health information management professionals",
+                "Licensed practical nurses",
+                "Medical laboratory technologists",
+                "Medical physicists",
+                "Medical radiation technologists",
+                "Midwives",
+                "Nurse practitioners",
+                "Occupational therapists",
+                "Opticians",
+                "Optometrists",
+                "Paramedics",
+                "Pharmacists",
+                "Pharmacy technicians",
+                "Physician assistants",
+                "Physicians",
+                "Physiotherapists",
+                "Psychologists",
+                "Registered nurses",
+                "Registered psychiatric nurses",
+                "Regulated nurses",
+                "Respiratory therapists",
+                "Social workers",
+                "Specialists",
+                "Speech language pathologists",
+                "Psychotherapists/counselling therapists",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-c-1",
+  "title": "global_indicators.3-c-1-title"
+}

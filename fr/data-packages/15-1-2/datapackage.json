@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Key Biodiversity Areas (KBAs)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestre ZCBs",
+                "Eau Douce ZCBs",
+                ""
+              ]
+            },
+            "title": "Zones clés pour la biodiversité (ZCBs)"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-1-2",
+  "title": "Proportion des sites importants pour la biodiversité terrestre et la biodiversité des eaux douces qui se trouvent dans des aires protégées (par type d’écosystème)"
+}

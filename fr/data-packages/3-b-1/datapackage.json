@@ -1,0 +1,51 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Antigen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtérie 4 doses",
+                "Coqueluche 4 doses",
+                "Tétanos 4 doses",
+                "Polio 3 doses",
+                "Hib 4 doses",
+                "Rougeole 1 dose",
+                "Rubéole 1 dose",
+                "Oreillons 1 dose",
+                "Méningocoque C 1 dose",
+                "Pneumocoque 3 doses",
+                "Varicelle 1 dose",
+                ""
+              ]
+            },
+            "title": "Antigen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-b-1",
+  "title": "Proportion de la population cible ayant reçu tous les vaccins prévus par le programme national"
+}

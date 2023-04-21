@@ -1,0 +1,85 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion de la population active occupée admissible à l'indemnité d'accident du travail\n",
+                "Portion de familles économiques qui reçoivent des prestations pour enfants\n",
+                "Ratio de chômeurs recevant des prestations\n",
+                "Proportion de chômeurs admissibles aux prestations d'assurance-emploi\n",
+                "Proportion de personnes plus âgées recevant une pension\n",
+                "Pourcentage de mères d'enfants de 12 mois ou moins qui ont reçu des prestations de maternité ou parentales\n",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage",
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Nunavut/Northwest Territories",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-3-1",
+  "title": "Proportion de la population bénéficiant de socles ou systèmes de protection sociale, par sexe et par groupe de population (enfants, chômeurs, personnes âgées, personnes handicapées, femmes enceintes et nouveau-nés, victimes d’un accident du travail, pauvres et personnes vulnérables)"
+}

@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Science type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sciences naturelles et génie",
+                "Sciences sociales, humaines et les arts",
+                "Sciences totales",
+                ""
+              ]
+            },
+            "title": "Type de science"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-5-1",
+  "title": "Dépenses de recherche-développement en proportion du PIB"
+}

@@ -1,0 +1,98 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Newfoundland",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of provider",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Audiologistes",
+                "Chiropraticiens",
+                "Assistants dentaires",
+                "Hygiénistes dentaires",
+                "Dentistes",
+                "Diététistes",
+                "Professionnels de la santé publique environnementale",
+                "Médecins de famille",
+                "Conseillers en génétique",
+                "Professionnels de la gestion de l’information sur la santé",
+                "Infirmières auxiliaires autorisées",
+                "Technologistes de laboratoire médical",
+                "Physiciens médicaux",
+                "Technologues en radiation médicale",
+                "Sages-femmes",
+                "Infirmières praticiennes",
+                "Ergothérapeutes",
+                "Opticiens",
+                "Optométristes",
+                "Ambulanciers paramédicaux",
+                "Pharmaciens",
+                "Techniciens en pharmacie",
+                "Adjoints au médecin",
+                "Médecins",
+                "Physiothérapeutes",
+                "Psychologues",
+                "Infirmières autorisées",
+                "Infirmières psychiatriques autorisées",
+                "Personnel infirmier réglementé",
+                "Inhalothérapeutes",
+                "Travailleurs sociaux",
+                "Spécialistes",
+                "Orthophonistes",
+                "Psychotherapists/counselling therapists",
+                ""
+              ]
+            },
+            "title": "Type of provider"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-c-1",
+  "title": "Densité et répartition du personnel de santé"
+}

@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beurre",
+                "Fromage",
+                "Autres produits laitiers",
+                ""
+              ]
+            },
+            "title": "Product"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-b-1",
+  "title": "Subventions à l’exportation dans le secteur agricole"
+}
