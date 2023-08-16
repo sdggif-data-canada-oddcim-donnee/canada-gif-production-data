@@ -51,15 +51,41 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
             </style>
         </head>
         <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main role="main">
+            <main id="main-content" role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation: Type of materials diverted</h1>
                     <div>
@@ -94,7 +120,7 @@
   <tbody>
     <tr>
       <td><a href="disaggregation-value--all-materials-diverted.html">All materials diverted</a></td>
-      <td>35</td>
+      <td>34</td>
       <td>1</td>
     </tr>
     <tr>
@@ -153,7 +179,7 @@
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--textiles_.html">Textiles</a></td>
+      <td><a href="disaggregation-value--textiles.html">Textiles</a></td>
       <td>36</td>
       <td>1</td>
     </tr>
@@ -172,7 +198,7 @@
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--all-materials-diverted.html\">All materials diverted<\/a>","Disaggregation combinations using this value":35,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--all-paper-fibres.html\">All paper fibres<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--construction-renovation-and-demolition.html\">Construction, renovation and demolition<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--copper-and-aluminum.html\">Copper and aluminum<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--electronics.html\">Electronics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ferrous-metals.html\">Ferrous metals<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gable-top-and-aseptic-containers.html\">Gable top and aseptic containers<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--glass.html\">Glass<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mixed-metals.html\">Mixed metals<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--organics.html\">Organics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-materials.html\">Other materials<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--plastics.html\">Plastics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textiles_.html\">Textiles<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tires.html\">Tires<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--white-goods.html\">White goods<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1}];
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--all-materials-diverted.html\">All materials diverted<\/a>","Disaggregation combinations using this value":34,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--all-paper-fibres.html\">All paper fibres<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--construction-renovation-and-demolition.html\">Construction, renovation and demolition<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--copper-and-aluminum.html\">Copper and aluminum<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--electronics.html\">Electronics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ferrous-metals.html\">Ferrous metals<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gable-top-and-aseptic-containers.html\">Gable top and aseptic containers<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--glass.html\">Glass<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mixed-metals.html\">Mixed metals<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--organics.html\">Organics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--other-materials.html\">Other materials<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--plastics.html\">Plastics<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--textiles.html\">Textiles<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tires.html\">Tires<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--white-goods.html\">White goods<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1}];
             </script>
             
         </div>

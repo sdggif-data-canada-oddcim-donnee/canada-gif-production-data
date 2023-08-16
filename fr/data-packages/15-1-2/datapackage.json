@@ -16,21 +16,21 @@
             "title": "Année"
           },
           {
-            "name": "data.Key Biodiversity Areas (KBAs)",
+            "name": "Key Biodiversity Areas (KBAs)",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terrestre ZCBs",
-                "Eau Douce ZCBs",
+                "Terrestrial KBAs",
+                "Freshwater KBAs",
                 ""
               ]
             },
-            "title": "Zones clés pour la biodiversité (ZCBs)"
+            "title": "Key Biodiversity Areas (KBAs)"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

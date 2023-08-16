@@ -1,15 +1,18 @@
 Year,Value,Units,Series
-2020,4.0,Pourcentage,Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
-2015,1.0,Pourcentage,Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
-2020,57.0,Nombre,Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
-2015,18.0,Nombre,Nombre de bassins (partagés) présentant des changements importants dans l’étendue des eaux de surface
-2016/18 (baseline),806938.0,Kilomètres carrés,Étendue des millieux humides
-2016/18 (baseline),8.17,Pourcentage,Étendue des millieux humides
-2017/19,17.0,Nombre,"Qualité de l’eau du lac, la turbidité"
-2017/19,11.0,Pourcentage,"Qualité de l’eau du lac, la turbidité"
-2017/19,61.0,Nombre,"Qualité de l’eau du lac, l'état trophique"
-2017/19,39.0,Pourcentage,"Qualité de l’eau du lac, l'état trophique"
-2017/19,13.0,Nombre,"Qualité de l’eau du lac, l'état trophique et la turbidité"
-2017/19,8.0,Pourcentage,"Qualité de l’eau du lac, l'état trophique et la turbidité"
-2017/19,66.0,Nombre,"Qualité de l’eau du lac, état nul ou amélioration"
-2017/19,42.0,Pourcentage,"Qualité de l’eau du lac, état nul ou amélioration"
+2020,4.0,Percentage,Number of (shared) basins showing high surface-water extent changes
+2015,1.0,Percentage,Number of (shared) basins showing high surface-water extent changes
+2020,57.0,Number,Number of (shared) basins showing high surface-water extent changes
+2015,18.0,Number,Number of (shared) basins showing high surface-water extent changes
+2015,916917.6,Square kilometers,Permanent water
+2016,914878.3,Square kilometers,Permanent water
+2017,916342.4,Square kilometers,Permanent water
+2018,914773.6,Square kilometers,Permanent water
+2019,914479.7,Square kilometers,Permanent water
+2020,919584.5,Square kilometers,Permanent water
+2015,81623.6,Square kilometers,Seasonal water
+2016,95379.5,Square kilometers,Seasonal water
+2017,98646.4,Square kilometers,Seasonal water
+2018,92557.1,Square kilometers,Seasonal water
+2019,94042.2,Square kilometers,Seasonal water
+2020,103943.7,Square kilometers,Seasonal water
+2016/18 (baseline),8.17,Percentage,Wetlands area

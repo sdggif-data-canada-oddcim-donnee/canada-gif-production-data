@@ -7,31 +7,29 @@ Age Group,1,6
 Age of primary decision maker,1,5
 Age,2,46
 Aid for trade flows of official development assistance (ODA),1,2
-Antigen,1,11
+Antigen or vaccine,1,13
 Area,1,3
 Assistance type,1,2
 Cause of death,1,3
 Causes of death,1,7
-Census divisions,1,2
+Characteristics,2,6
 Component,1,4
-data.Economic family type,1,20
-data.Geography,1,16
-data.Household food security status,1,4
-data.Key Biodiversity Areas (KBAs),1,2
-Demographic,1,9
-Disease,1,2
+Demographic and geodemographic,1,6
+Economic family type,1,20
 Educational attainment level,2,6
 Elected officials,1,4
 Employment size,1,4
 Gender,2,4
 Genetic resources for food and agriculture (GRFA),1,2
-Geography,42,133
+Geography,45,137
 Government,1,2
+Household food security status,1,6
 Household hazardous waste,1,8
 Indicator,1,6
 Indigenous identity,1,3
 Industries,1,14
-Industry,2,127
+Industry,2,126
+Key Biodiversity Areas (KBAs),1,2
 Land use category,1,8
 Level of education,1,4
 Level of government,1,2
@@ -42,19 +40,22 @@ Ownership demographics,1,4
 Parity index,1,4
 Percentile,1,8
 Persons in low income,2,12
+Population centres,1,6
 Population group,1,3
 Population,1,7
 Poverty reduction aid type,1,5
-Product,1,3
+Product,1,5
 Proficiency level,1,2
 Public sector components,1,1
+Racialized groups,1,10
 Resolution mechanism,1,6
 Science type,1,3
 Sector,1,3
 Selected characteristic,1,9
-Sex,19,9
-Size,3,8
+Sex,20,9
+Size,3,9
 Skill,1,2
+Sociodemographic characteristics,1,8
 Source,1,11
 Sources of materials prepared for recycling,1,3
 Sources of waste for disposal,1,3
@@ -63,13 +64,15 @@ Table,1,2
 Tenure,1,7
 Tobacco Product,1,10
 Type of disease,1,4
-Type of electricity generation,1,6
-Type of employee,1,3
+Type of electricity generation,1,7
 Type of heritage,1,5
 Type of institution attended,1,5
 Type of intimate partner violence,1,4
 Type of materials diverted,1,15
+Type of natural disaster,5,7
 Type of provider,1,34
 Type of work,1,3
 Unwanted or inappropriate behaviour,1,5
+Water extent,1,2
 Water quality category,1,4
+Water quality,1,4

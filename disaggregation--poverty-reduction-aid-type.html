@@ -51,15 +51,41 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
             </style>
         </head>
         <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main role="main">
+            <main id="main-content" role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation: Poverty reduction aid type</h1>
                     <div>
@@ -76,7 +102,7 @@
             
         <div class="my-3">
             <a href="values--disaggregation--poverty-reduction-aid-type.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--poverty-reduction-aid-type">Download CSV of values used in this disaggregation</a>
-            <div id="values--disaggregation--poverty-reduction-aid-type" class="download-info">Size: 214 Bytes</div>
+            <div id="values--disaggregation--poverty-reduction-aid-type" class="download-info">Size: 212 Bytes</div>
         </div>
         
             
@@ -103,7 +129,7 @@
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--development-food-aid.html">Development food aid </a></td>
+      <td><a href="disaggregation-value--development-food-aid.html">Development food aid</a></td>
       <td>1</td>
       <td>1</td>
     </tr>
@@ -113,7 +139,7 @@
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--water-supply-and-sanitation.html">Water supply and sanitation </a></td>
+      <td><a href="disaggregation-value--water-supply-and-sanitation.html">Water supply and sanitation</a></td>
       <td>1</td>
       <td>1</td>
     </tr>
@@ -122,7 +148,7 @@
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--basic-education.html\">Basic education<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--basic-health.html\">Basic health<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--development-food-aid.html\">Development food aid <\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--multisector-aid-for-basic-social-services.html\">Multisector aid for basic social services<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--water-supply-and-sanitation.html\">Water supply and sanitation <\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--basic-education.html\">Basic education<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--basic-health.html\">Basic health<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--development-food-aid.html\">Development food aid<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--multisector-aid-for-basic-social-services.html\">Multisector aid for basic social services<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--water-supply-and-sanitation.html\">Water supply and sanitation<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
             </script>
             
         </div>

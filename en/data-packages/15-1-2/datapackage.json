@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Key Biodiversity Areas (KBAs)",
+            "name": "Key Biodiversity Areas (KBAs)",
             "type": "string",
             "constraints": {
               "enum": [

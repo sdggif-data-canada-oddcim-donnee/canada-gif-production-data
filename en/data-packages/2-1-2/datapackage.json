@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -33,37 +33,29 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "data.Economic family type",
+            "name": "Economic family type",
             "type": "string",
             "constraints": {
               "enum": [
                 "All persons",
                 "Persons in economic families",
-                "data.Persons in elderly families",
-                "data.Persons in elderly couples",
-                "data.Persons in other elderly families",
-                "data.Persons in non-elderly families",
-                "data.Persons in couples",
-                "data.Persons in couple families with children",
-                "data.Persons in couple families with other relatives",
-                "data.Persons in lone-parent families",
-                "data.Persons in male lone-parent families",
-                "data.Persons in female lone-parent families",
-                "data.Persons in other non-elderly families",
+                "Persons in elderly families",
+                "Persons in elderly couples",
+                "Persons in other elderly families",
+                "Persons in non-elderly families",
+                "Persons in couples",
+                "Persons in couple families with children",
+                "Persons in couple families with other relatives",
+                "Persons in lone-parent families",
+                "Persons in male lone-parent families",
+                "Persons in female lone-parent families",
+                "Persons in other non-elderly families",
                 "Persons not in an economic family",
                 "Elderly persons not in an economic family",
                 "Elderly males not in an economic family",
@@ -77,18 +69,25 @@
             "title": "Economic family type"
           },
           {
-            "name": "data.Household food security status",
+            "name": "Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Food insecure, marginal",
-                "data.Food insecure, moderate",
-                "data.Food insecure, severe",
-                "data.Food insecure, moderate or severe",
+                "Food secure",
+                "Food insecure",
+                "Food insecure, marginal",
+                "Food insecure, moderate or severe",
+                "Food insecure, moderate",
+                "Food insecure, severe",
                 ""
               ]
             },
             "title": "Household food security status"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -101,5 +100,5 @@
   ],
   "profile": "data-package",
   "name": "2-1-2",
-  "title": "Proportion of family living with food insecurity"
+  "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
 }

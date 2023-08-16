@@ -20,33 +20,33 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
                 "Yukon",
-                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Marital status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Marié ou vivant en union libre",
-                "Marié",
-                "Vivant en union libre",
+                "Married or living common law",
+                "Married",
+                "Living common law",
                 ""
               ]
             },
@@ -57,17 +57,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 19 ans",
-                "20 à 24 ans",
+                "15 to 19 years",
+                "20 to 24 years",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

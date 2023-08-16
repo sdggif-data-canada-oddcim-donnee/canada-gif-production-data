@@ -12,13 +12,13 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Valeur"
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

@@ -12,13 +12,39 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic loss CAN dollars $/GDP",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Type of natural disaster",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Meteorological - Flood",
+                "Meteorological - Storm",
+                "Meteorological - Winter storm",
+                "Meteorological - Wildfire",
+                "Meteorological - Heat event",
+                ""
+              ]
+            },
+            "title": "Type of natural disaster"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

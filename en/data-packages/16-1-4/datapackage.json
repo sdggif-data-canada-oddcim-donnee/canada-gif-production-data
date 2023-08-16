@@ -16,11 +16,12 @@
             "title": "Year"
           },
           {
-            "name": "Demographic",
+            "name": "Racialized groups",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total visible minority",
+                "Total visible minority population",
                 "South Asian",
                 "Chinese",
                 "Black",
@@ -32,11 +33,29 @@
                 ""
               ]
             },
-            "title": "Demographic"
+            "title": "Racialized groups"
+          },
+          {
+            "name": "Sociodemographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 years and over",
+                "Men+",
+                "Women+",
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 years and over",
+                "Non-immigrants",
+                "Immigrants",
+                ""
+              ]
+            },
+            "title": "Sociodemographic characteristics"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

@@ -20,11 +20,12 @@
             "constraints": {
               "enum": [
                 "Number of (shared) basins showing high surface-water extent changes",
+                "Permanent water",
+                "Seasonal water",
+                "Reservoir extent",
                 "Wetlands area",
                 "Lake water quality, turbidity",
-                "Lake water quality, trophic state",
-                "Lake water quality, trophic state and turbidity",
-                "Lake water quality, no or improving condition",
+                "Lake water quality, trophic",
                 ""
               ]
             }
@@ -37,6 +38,30 @@
                 "Percentage",
                 "Number",
                 "Square kilometers",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Water extent",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Maximum",
+                "Minimum",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Water quality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Low",
+                "Medium",
+                "High",
+                "Extreme",
                 ""
               ]
             }
