@@ -21,8 +21,8 @@
             "constraints": {
               "enum": [
                 "Both sexes",
-                "Male",
                 "Female",
+                "Male",
                 ""
               ]
             },
@@ -36,7 +36,7 @@
                 "15-19 years-old\n",
                 "20-24 years-old\n",
                 "25+ years-old",
-                "25-44 years-old",
+                "25-44 years-old\n",
                 "45+ years-old",
                 "All age groups",
                 ""
@@ -55,9 +55,9 @@
                 "E-cigarettes",
                 "Little cigars or cigarillos",
                 "Smokeless tobacco",
-                "Vaping",
                 "Water pipe with tobacco",
                 "Pipe",
+                "Vaping",
                 "Chewing tobacco",
                 ""
               ]
