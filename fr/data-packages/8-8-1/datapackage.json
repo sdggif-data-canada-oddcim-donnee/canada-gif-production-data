@@ -16,16 +16,16 @@
             "title": "Année"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre de demandes d’indemnisation pour décès, selon le sexe",
-                "Nombre de réclamations avec perte de temps, selon le sexe",
+                "Fatality claims",
+                "Lost time claims",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Series"
           },
           {
             "name": "Sex",
@@ -34,6 +34,7 @@
               "enum": [
                 "Homme",
                 "Femme",
+                "Total",
                 "Unknown",
                 ""
               ]
@@ -51,5 +52,5 @@
   ],
   "profile": "data-package",
   "name": "8-8-1",
-  "title": "Number of fatality and lost time claims, by sex"
+  "title": "Nombre d’accidents du travail mortels et non mortels par 100 000 travailleurs, par sexe et statut au regard de l’immigration"
 }

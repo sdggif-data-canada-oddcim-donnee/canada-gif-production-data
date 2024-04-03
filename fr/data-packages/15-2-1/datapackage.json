@@ -22,7 +22,7 @@
               "enum": [
                 "Pourcentage (%)",
                 "Tonnes/hectare",
-                "Hectares",
+                "Hectares (Millions)",
                 ""
               ]
             },

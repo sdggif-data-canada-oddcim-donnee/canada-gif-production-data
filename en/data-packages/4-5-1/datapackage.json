@@ -20,6 +20,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ratio",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Educational indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Participation rate in organized learning",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in mathematics",
                 "Proportion of 15-year-olds achieving at least a minimum proficiency level (PISA level 2) in reading",
@@ -28,10 +39,10 @@
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Educational indicator"
           },
           {
-            "name": "Parity index",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -42,7 +53,7 @@
                 ""
               ]
             },
-            "title": "Parity index"
+            "title": "Series"
           },
           {
             "name": "Geography",

@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fatality claims, by sex",
-                "Number of lost time claims, by sex",
+                "Fatality claims",
+                "Lost time claims",
                 ""
               ]
             }
@@ -32,6 +32,7 @@
               "enum": [
                 "Male",
                 "Female",
+                "Total",
                 "Unknown",
                 ""
               ]
@@ -47,5 +48,5 @@
   ],
   "profile": "data-package",
   "name": "8-8-1",
-  "title": "Number of fatality and lost time claims, by sex"
+  "title": "global_indicators.8-8-1-title"
 }

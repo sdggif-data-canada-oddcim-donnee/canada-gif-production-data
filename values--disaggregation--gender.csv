@@ -1,5 +1,10 @@
 Value,Disaggregation combinations using this value,Number of indicators
 All genders,41,1
-Female,50,2
-Male,50,2
-Total,50,1
+Female gender,733,2
+Female,68,2
+Male gender,657,2
+Male,68,2
+Men,2,1
+"Total, gender",809,2
+Total,26,1
+Women,2,1

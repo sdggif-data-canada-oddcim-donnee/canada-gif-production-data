@@ -1,138 +1,127 @@
 Value,Disaggregation combinations using this value,Number of indicators
 "Abbotsford - Mission, British Columbia",3,1
-"Abbotsford-Mission, British Columbia",8,1
-Abbotsford - Mission (CMA),1,1
-Alberta,1277,41
-All census metropolitan areas,8,1
+Alberta,1154,43
 Assiniboine-Red drainage region,1,1
-Atlantic Ocean,28,1
+Atlantic Canada,1,1
+Atlantic Ocean,21,1
 Atlantic provinces,144,3
 Atlantic Region,6,3
 Atlantic,80,1
-"Barrie, Ontario",11,2
-Bathurst (CA),1,1
-"Belleville, Ontario",8,1
-"Brantford, Ontario",11,2
+"Barrie, ON",1,1
+"Barrie, Ontario",3,1
+"Brantford, Ontario",3,1
 British Columbia and Territories Region,4,1
-British Columbia,1364,43
-"Calgary, Alberta",35,4
-Campbellton (New Brunswick part) (CA),1,1
-Canada,1357,32
-Cape Breton (CA),1,1
+British Columbia,1239,45
+"Calgary, AB",1,1
+"Calgary, Alberta",27,3
+Canada,1219,27
+"Charlottetown, PE",1,1
 Churchill drainage region,1,1
 Columbia drainage region,1,1
-Corner Brook (CA),1,1
-"Edmonton, Alberta",35,4
-Edmundston (CA),1,1
+"Edmonton, AB",1,1
+"Edmonton, Alberta",27,3
 Fraser-Lower Mainland drainage region,1,1
-Fredericton (CMA),1,1
-Gander (CA),1,1
-Grand Falls-Windsor (CA),1,1
-Great Lakes and St. Lawrence River,28,1
+"Fredericton, NB",1,1
+"Gatineau, QC",1,1
+Great Lakes and St. Lawrence River,21,1
 Great Lakes drainage region,1,1
-"Greater Sudbury, Ontario",11,2
-"Guelph, Ontario",11,2
-Halifax (CMA),1,1
-"Halifax, Nova Scotia",11,2
-Hamilton (CMA),1,1
-"Hamilton, Ontario",11,2
-Hudson Bay,28,1
-Kamloops (CMA),1,1
-"Kelowna, British Columbia",11,2
-Kelowna (CMA),1,1
-Kentville (CA),1,1
-"Kingston, Ontario",11,2
-Kitchener - Cambridge - Waterloo (CMA),1,1
+"Greater Sudbury, Ontario",3,1
+"Guelph, Ontario",3,1
+"Halifax, Nova Scotia",3,1
+"Halifax, NS",1,1
+"Hamilton, ON",1,1
+"Hamilton, Ontario",3,1
+Hudson Bay,21,1
+"Kelowna, British Columbia",3,1
+"Kingston, Ontario",3,1
 "Kitchener - Cambridge - Waterloo, Ontario",3,1
-"Kitchener-Cambridge-Waterloo, Ontario",8,1
-"Lethbridge, Alberta",8,1
-London (CMA),1,1
-"London, Ontario",11,2
+"Kitchener, ON",1,1
+"London, ON",1,1
+"London, Ontario",3,1
 Lower Mackenzie drainage region,1,1
 Lower Saskatchewan-Nelson drainage region,1,1
-Mackenzie River,28,1
-Manitoba,1278,41
+Mackenzie River,21,1
+Manitoba,1137,43
 Maritime Coastal drainage region,1,1
-Moncton (CMA),1,1
-"Moncton, New Brunswick",11,2
+"Moncton, New Brunswick",3,1
+"Montreal, QC",1,1
 "Montreal, Quebec",15,2
-"Montréal, Quebec",20,2
-Nanaimo (CMA),1,1
-"National Capital Region, Ontario",3,1
-"National Capital Region, Ontario/Quebec",3,1
-"National Capital Region, Quebec",3,1
-New Brunswick,1285,42
-New Glasgow (CA),1,1
-Newfoundland and Labrador,1249,41
+"Montréal, Quebec",12,1
+New Brunswick,1105,42
+Newfoundland and Labrador,1047,41
 Newfoundland-Labrador drainage region,1,1
 Newfoundland,32,1
-Non-census metropolitan areas,8,1
 North Saskatchewan drainage region,1,1
 North Shore-Gaspé drainage region,1,1
 Northern Ontario drainage region,1,1
 Northern Quebec drainage region,1,1
 Northern Territories,1,1
-Northwest Territories including Nunavut,2,2
-Northwest Territories,589,27
-Nova Scotia,1284,42
-Nunavut,582,26
-Nunavut/Northwest Territories,1,1
+Northwest Territories and Nunavut,1,1
+Northwest Territories including Nunavut,4,4
+Northwest Territories,465,29
+Nova Scotia,1120,43
+Nunavut,455,29
 Okanagan-Similkameen drainage region,1,1
 Ontario Region,4,1
-Ontario,1364,43
-"Oshawa, Ontario",11,2
+Ontario,1239,44
+"Oshawa, ON",1,1
+"Oshawa, Ontario",3,1
 Ottawa drainage region,1,1
-Ottawa - Gatineau (Ontario part) (CMA),1,1
 "Ottawa - Gatineau (Ontario part), Ontario",3,1
-Ottawa-Gatineau (Ontario part),8,1
-"Ottawa-Gatineau, Ontario/Quebec",32,3
+"Ottawa-Gatineau, Ontario/Quebec",24,2
 "Ottawa - Gatineau (Quebec part), Quebec",3,1
-Ottawa-Gatineau (Quebec part),8,1
-Outside Canada,1,1
+"Ottawa, ON",1,1
+Outside Canada,2,2
 Pacific Coastal drainage region,1,1
-Pacific Ocean,32,1
+Pacific Ocean,24,1
 Peace-Athabasca drainage region,1,1
-"Peterborough, Ontario",11,2
+"Peterborough, Ontario",3,1
 Prairie provinces,144,3
 Prairie Region,2,2
+Prairies and northern Ontario,1,1
 Prairies Region,4,1
 Prairies,80,1
-Prince Edward Island,1271,40
+Prince Edward Island,1076,41
+"Quebec, QC",1,1
 "Quebec, Quebec",15,2
 Quebec Region,4,1
-Quebec,1359,42
-"Québec, Quebec",20,2
-"Regina, Saskatchewan",11,2
-"Saguenay, Quebec",11,2
-Saint John (CMA),1,1
-"Saint John, New Brunswick",11,2
+Quebec,1227,44
+"Québec, Quebec",12,1
+"Regina, Saskatchewan",3,1
+"Regina, SK",1,1
+"Saguenay, Quebec",3,1
+"Saint John, New Brunswick",3,1
 Saint John-St. Croix drainage region,1,1
-Saskatchewan,1278,41
-"Saskatoon, Saskatchewan",11,2
-"Sherbrooke, Quebec",11,2
+Saskatchewan,1146,43
+"Saskatoon, Saskatchewan",3,1
+"Saskatoon, SK",1,1
+"Sherbrooke, Quebec",3,1
 South Saskatchewan drainage region,1,1
-St. Catharines - Niagara (CMA),1,1
+Southern Ontario,1,1
+Southern Quebec,1,1
+"St. Catharines - Niagara Falls, ON",1,1
 "St. Catharines - Niagara, Ontario",3,1
-"St. Catharines-Niagara, Ontario",8,1
-St. Johns (CMA),1,1
-"St. John's, Newfoundland and Labrador",11,2
+"St. John's, Newfoundland and Labrador",3,1
+"St. John's, NL",1,1
 St. Lawrence drainage region,1,1
-"Thunder Bay, Ontario",11,2
-Toronto (CMA),1,1
-"Toronto, Ontario",35,4
+"Thunder Bay, Ontario",3,1
+"Toronto, ON",1,1
+"Toronto, Ontario",27,3
 Total drainage regions,1,1
 "Total, large urban population centres",6,1
-"Trois-Rivières, Quebec",11,2
-Truro (CA),1,1
-"Vancouver, British Columbia",35,4
-Vancouver (CMA),1,1
-"Victoria, British Columbia",11,2
-Victoria (CMA),1,1
-Whitehorse (CA),1,1
-"Windsor, Ontario",11,2
+"Total, Organisation for Economic Co-operation and Development (OECD)",1,1
+"Trois-Rivières, Quebec",3,1
+"Vancouver, BC",1,1
+"Vancouver, British Columbia",27,3
+"Victoria, BC",1,1
+"Victoria, British Columbia",3,1
+"Whitehorse, YT",1,1
+"Windsor, ON",1,1
+"Windsor, Ontario",3,1
 Winnipeg drainage region,1,1
-"Winnipeg, Manitoba",35,4
-Yellowknife (CA),1,1
+"Winnipeg, Manitoba",27,3
+"Winnipeg, MB",1,1
+"Yellowknife, NT",1,1
 Yukon drainage region,1,1
-"Yukon, Northwest Territories and Nunavut",51,3
-Yukon,593,29
+"Yukon, Northwest Territories and Nunavut",3,1
+Yukon,446,30

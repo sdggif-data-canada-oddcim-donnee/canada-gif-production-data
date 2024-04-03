@@ -56,7 +56,6 @@
               "enum": [
                 "Excellent",
                 "Good",
-                "Fair",
                 "Total",
                 ""
               ]
@@ -74,5 +73,5 @@
   ],
   "profile": "data-package",
   "name": "6-3-2",
-  "title": "Water quality in Canadian rivers"
+  "title": "Proportion of bodies of water with good ambient water quality"
 }

@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total visible minority",
+                "Total - Canada",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -36,11 +36,10 @@
             "title": "Racialized groups"
           },
           {
-            "name": "Sociodemographic characteristics",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 years and over",
                 "Men+",
                 "Women+",
                 "15 to 24 years",
@@ -48,10 +47,11 @@
                 "65 years and over",
                 "Non-immigrants",
                 "Immigrants",
+                "Total, 15 years and over",
                 ""
               ]
             },
-            "title": "Sociodemographic characteristics"
+            "title": "Selected sociodemographic characteristics"
           },
           {
             "name": "Value",
@@ -64,5 +64,5 @@
   ],
   "profile": "data-package",
   "name": "16-1-4",
-  "title": "Proportion of population that feel safe walking alone around the area they live"
+  "title": "Proportion of population that feel safe walking alone around the area they live after dark"
 }

@@ -15,13 +15,25 @@
             "type": "integer"
           },
           {
-            "name": "Location",
+            "name": "Economic activity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Services (ISIC4 G to T)",
-                "Industries",
                 "Agriculture (ISIC4 A01 A0210 A0322)",
+                "Industries",
+                "Total (Overall)",
+                "Services (ISIC4 G to T)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "United States dollars per cubic meter (USD/m3)",
+                "Percent change in water-use efficiency over time (%)",
                 ""
               ]
             }

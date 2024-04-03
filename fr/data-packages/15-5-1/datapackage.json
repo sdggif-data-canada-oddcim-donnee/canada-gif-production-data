@@ -16,6 +16,32 @@
             "title": "Année"
           },
           {
+            "name": "Systems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            },
+            "title": "Systems"
+          },
+          {
+            "name": "Species",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                ""
+              ]
+            },
+            "title": "Species"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -26,5 +52,5 @@
   ],
   "profile": "data-package",
   "name": "15-5-1",
-  "title": "Canadian species index"
+  "title": "Indice de la Liste rouge"
 }

@@ -1,8 +1,9 @@
 Value,Disaggregation combinations using this value,Number of indicators
+Meteorological - Epidemic,2,2
 Meteorological - Flood,8,5
-Meteorological - Heat event,8,5
+Meteorological - Heat event,6,3
 Meteorological - Hurricane,6,3
 Meteorological - Storm,8,5
-Meteorological - Tornado,6,3
+Meteorological - Tornado,8,5
 Meteorological - Wildfire,8,5
 Meteorological - Winter storm,8,5

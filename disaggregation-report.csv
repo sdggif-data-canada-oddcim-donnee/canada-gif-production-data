@@ -2,44 +2,46 @@ Disaggregation,Number of indicators,Number of values
 Activity group,1,5
 Activity related to digital skills,1,14
 Age at time of death,1,29
-Age group,10,38
+Age group,9,36
 Age Group,1,6
 Age of primary decision maker,1,5
-Age,3,47
+Age,5,30
 Aid for trade flows of official development assistance (ODA),1,2
 Antigen or vaccine,1,13
-Area,1,3
 Assistance type,1,2
 Basic services,1,14
 Cause of death,1,3
 Causes of death,1,7
-Characteristics,2,6
 Component,1,4
-Demographic and geodemographic,1,6
+data.Stock group,1,8
+Disability status,1,3
+Economic activity,2,5
 Economic family type,1,20
-Educational attainment level,2,6
+Educational indicator,1,5
 Elected officials,1,4
 Employment size,1,4
-Gender,2,4
-Genetic resources for food and agriculture (GRFA),1,2
-Geography,46,137
+"First Nations, Metis, or Inuit identity",1,5
+Gender,5,9
+Geography,48,126
 Government,1,2
+Graduation rate,1,2
 Household food security status,1,6
-Household hazardous waste,1,8
+Immigrant status,2,5
 Indicator,1,6
-Indigenous identity,1,3
+Indigenous identity,2,9
 Industries,1,14
 Industry,2,126
 Key Biodiversity Areas (KBAs),1,2
 Land use category,1,8
+Least developed countries,1,1
 Level of education,1,4
 Level of government,1,2
-Location,1,3
-Marital status,2,5
+Marital status,3,8
 Occupation,2,15
+Official development assistance,1,1
 Ownership demographics,1,4
-Parity index,1,4
 Percentile,1,8
+Person with disability,1,2
 Persons in low income,2,12
 Population centres,1,6
 Population,1,7
@@ -49,31 +51,31 @@ Proficiency level,1,2
 Public sector components,1,1
 Racialized groups,1,10
 Resolution mechanism,1,6
-Science type,1,3
 Sector,1,3
 Selected characteristic,1,9
+Selected sociodemographic characteristics,1,8
 Severity,1,3
-Sex,21,9
-Size,3,9
+Sex,18,9
+Sexual orientation,2,8
+Size,1,6
 Skill,1,2
-Sociodemographic characteristics,1,8
 Source,1,11
-Sources of materials prepared for recycling,1,3
 Sources of waste for disposal,1,3
+Species,1,3
+Standard Accounting Tools,1,2
 Status,1,3
-Table,1,2
+Systems,1,3
 Tenure,1,7
 Tobacco Product,1,10
+Type of childhood maltreatment,1,3
 Type of disease,1,4
 Type of electricity generation,1,7
-Type of heritage,1,5
+Type of heritage,1,3
 Type of institution attended,1,5
 Type of intimate partner violence,1,4
-Type of materials diverted,1,15
-Type of natural disaster,5,7
+Type of natural disaster,5,8
 Type of provider,1,34
 Type of work,1,3
 Unwanted or inappropriate behaviour,1,5
-Water extent,1,2
-Water quality category,1,4
-Water quality,1,4
+Visible minority,2,6
+Water quality category,1,3

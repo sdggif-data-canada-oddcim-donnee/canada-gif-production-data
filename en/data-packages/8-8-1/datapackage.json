@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of fatality claims, by sex",
-                "Number of lost time claims, by sex",
+                "Fatality claims",
+                "Lost time claims",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Sex",
@@ -34,6 +34,7 @@
               "enum": [
                 "Male",
                 "Female",
+                "Total",
                 "Unknown",
                 ""
               ]
@@ -51,5 +52,5 @@
   ],
   "profile": "data-package",
   "name": "8-8-1",
-  "title": "Number of fatality and lost time claims, by sex"
+  "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status"
 }
