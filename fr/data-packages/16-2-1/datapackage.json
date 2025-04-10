@@ -16,6 +16,19 @@
             "title": "Année"
           },
           {
+            "name": "Type of childhood maltreatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Violence physique ou sexuelle",
+                "Violence physique",
+                "Violence sexuelle",
+                ""
+              ]
+            },
+            "title": "Type de violence physique ou sexuelle subie durant l'enfance"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -40,26 +53,13 @@
             "title": "Géographie"
           },
           {
-            "name": "Type of childhood maltreatment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Physical or sexual abuse",
-                "Violence physique",
-                "Violence sexuelle",
-                ""
-              ]
-            },
-            "title": "Type of childhood maltreatment"
-          },
-          {
             "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male gender",
-                "Female gender",
-                "Total, gender",
+                "Genre masculin",
+                "Genre féminin",
+                "Total, genre",
                 ""
               ]
             },
@@ -70,7 +70,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, age",
+                "Total, âge",
                 "15 à 24 ans",
                 "25 à 34 ans",
                 "35 à 44 ans",
@@ -85,23 +85,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, immigrant status",
+                "Total, statut d'immigrant",
                 "Immigrants",
-                "Not stated, immigrant status",
+                "Status d'immigrant non précisée",
                 ""
               ]
             },
-            "title": "Immigrant status"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, visible minority population",
-                "Visible minority population",
-                "Pas une minorité visible\n",
-                "Not stated, visible minority population",
+                "Total, population des minorités visibles",
+                "Population des minorités visibles",
+                "Pas une minorité visible",
+                "Population des minorités visibles non précisée",
                 ""
               ]
             },
@@ -112,12 +112,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Première Nation (Indien de l'Amérique du Nord)",
+                "Premières Nations (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
-                "Non-indigenous identity",
-                "Not stated, population by indigenous identity",
-                "Other Indigenous identity",
+                "Identité non autochtone",
+                "Identité autochtone non précisée",
+                "Autre identité autochtone",
                 ""
               ]
             },
@@ -128,30 +128,30 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, disability status",
-                "Has a disability",
-                "Does not have a disability",
+                "Total, incapacité",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
-            "title": "Disability status"
+            "title": "Incapacité"
           },
           {
             "name": "Sexual orientation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, sexual orientation",
-                "Heterosexual",
-                "Sexual minority",
-                "Lesbian or gay",
-                "Bisexual or pansexual",
-                "Not stated, sexual orientation",
-                "Sexual orientation not elsewhere classified",
+                "Total, orientation sexuelle",
+                "Hétérosexuel",
+                "Minorité sexuelle",
+                "Lesbienne ou gai",
+                "Bisexuel ou pansexuel",
+                "Orientation sexuelle non précisée",
+                "Orientation sexuelle non classée ailleurs",
                 ""
               ]
             },
-            "title": "Sexual orientation"
+            "title": "Orientation sexuelle"
           },
           {
             "name": "GeoCode",

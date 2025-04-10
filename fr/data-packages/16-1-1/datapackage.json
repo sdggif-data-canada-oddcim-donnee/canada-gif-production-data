@@ -16,30 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Gender",
             "type": "string",
             "constraints": {
@@ -66,6 +42,30 @@
             "title": "Identité autochtone"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
@@ -81,5 +81,5 @@
   ],
   "profile": "data-package",
   "name": "16-1-1",
-  "title": "Nombre de victimes d’homicide volontaire par 100 000 habitants, par sexe et âge"
+  "title": "Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge"
 }

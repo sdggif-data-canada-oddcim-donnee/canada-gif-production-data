@@ -16,12 +16,24 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Valeur ajoutée dans l’industrie manufacturière en proportion du produit intérieur brut",
+                "Valeur ajoutée dans l’industrie manufacturière par habitant",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
                 "Pourcentage (%)",
-                "Dollar",
+                "Dollars courants",
                 ""
               ]
             },

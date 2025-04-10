@@ -16,6 +16,31 @@
             "title": "Année"
           },
           {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Marié ou vivant en union libre",
+                "Marié",
+                "Vivant en union libre",
+                ""
+              ]
+            },
+            "title": "État matrimonial"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 19 ans",
+                "20 à 24 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -38,31 +63,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Marital status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Marié ou vivant en union libre",
-                "Marié",
-                "Vivant en union libre",
-                ""
-              ]
-            },
-            "title": "Situation de famille"
-          },
-          {
-            "name": "Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 à 19 ans",
-                "20 à 24 ans",
-                ""
-              ]
-            },
-            "title": "Groupe d'âge"
           },
           {
             "name": "Value",

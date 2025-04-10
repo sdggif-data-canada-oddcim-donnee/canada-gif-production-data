@@ -15,12 +15,23 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MVA as a proportion of GDP",
+                "MVA per capita",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
                 "Percentage (%)",
-                "Dollar",
+                "Current dollars",
                 ""
               ]
             }

@@ -20,22 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Investissements directs étrangers (IDE) entrants",
                 "Aide publique au développement (APD)",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
           },
           {
             "name": "Value",
@@ -48,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "17-3-1",
-  "title": "Investissements étrangers directs, aide publique au développement et coopération Sud-Sud, en proportion du revenu national brut"
+  "title": "Investissements directs étrangers, aide publique au développement et coopération Sud-Sud, en proportion du revenu national brut"
 }

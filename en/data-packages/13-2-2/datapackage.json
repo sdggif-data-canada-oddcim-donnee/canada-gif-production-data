@@ -16,49 +16,47 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
+                "Provincial Inventory Total",
                 "Oil and Gas",
-                "Electricity",
                 "Transport",
                 "Heavy Industry",
                 "Buildings",
                 "Agriculture",
                 "Waste",
-                "Coal Production",
                 "Light Manufacturing, Construction and Forest Resources",
-                "Provincial Inventory Total",
                 "Territorial Inventory Total",
                 ""
               ]
             },
             "title": "Source"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "GeoCode",

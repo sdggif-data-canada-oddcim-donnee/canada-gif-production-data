@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Component",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adoption",
+                "Mise en œuvre",
+                ""
+              ]
+            },
+            "title": "Composante"
           },
           {
             "name": "Value",

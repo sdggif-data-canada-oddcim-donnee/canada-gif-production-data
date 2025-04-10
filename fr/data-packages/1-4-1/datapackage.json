@@ -24,7 +24,8 @@
                 "Accès aux services d’assainissement de base",
                 "Accès à des carburants et technologies propres",
                 "Accès à la mobilité de base",
-                "Access to basic education",
+                "Accès aux services de base de la collecte des déchets",
+                "Accès à l'éducation de base",
                 "Accès aux services d’information de base",
                 ""
               ]
@@ -32,23 +33,27 @@
             "title": "Series"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pourcentage (%)",
+                "Tonnes",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Basic services",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion de la population utilisant les services d’eau potable de base",
-                "Proportion de la population utilisant les services d’assainissement de base",
-                "Proportion de la population qui dépend principalement des combustibles et des technologies propres",
-                "Proportion de la population ayant accès à l’électricité",
                 "Proportion de la population rurale vivant à moins de 2 km d’une route praticable toute l’année",
                 "Proportion de la population située dans un rayon de 500 mètres d’un arrêt de transport en commun",
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en mathématiques",
-                "Proportion d’enfants de 4e année atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en lecture",
-                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimal de compétence en mathématiques",
                 "Proportion de la population couverte par l’accès haute vitesse évolué par paquets (HSPA+)",
-                "Proportion de la population couverte par l’évolution à long terme (LTE)",
                 "Proportion de la population couverte par l’évolution à long terme - A (LTE-A)",
+                "Proportion de la population couverte par l’évolution à long terme (LTE)",
                 "Proportion de la population couverte par la 5G",
                 ""
               ]
@@ -56,15 +61,31 @@
             "title": "Services de base"
           },
           {
-            "name": "Units",
+            "name": "Sources of waste for disposal",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage (%)",
+                "Sources de déchets non résidentielles à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                "Toutes les sources de déchets à des fins d'élimination",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Sources des déchets à des fins d'élimination"
+          },
+          {
+            "name": "Proficiency level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d’enfants de 4e année atteignant au moins un niveau minimum de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en lecture",
+                "Proportion d’enfants et de jeunes à la fin du premier cycle du secondaire atteignant au moins un niveau minimum de compétence en mathématiques",
+                ""
+              ]
+            },
+            "title": "Niveau de compétence"
           },
           {
             "name": "Sex",
@@ -97,6 +118,40 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Halifax, Nouvelle-Écosse",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon, Territoires du Nord-Ouest et Nunavut",
                 ""
               ]
             },

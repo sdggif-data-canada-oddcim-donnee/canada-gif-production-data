@@ -15,26 +15,19 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Meteorological - Flood",
-                "Meteorological - Storm",
-                "Meteorological - Wildfire",
-                "Meteorological - Winter storm",
-                "Meteorological - Epidemic",
-                "Meteorological - Tornado",
+                "Winter Storm",
+                "Flood",
+                "Storms and Severe Thunderstorms",
+                "Tornado",
+                "Wildfire",
+                "Heat Event",
+                "Storm - Unspecified / Other",
+                "Epidemic",
+                "Landslide",
                 ""
               ]
             }

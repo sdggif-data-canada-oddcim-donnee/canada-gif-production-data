@@ -16,58 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Official development assistance on conservation and sustainable use of biodiversity",
-                "Revenue generated and finance mobilized from biodiversity-relevant economic instruments",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "Public sector components",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Administrations publiques provinciales-territoriales et locales consolidées",
-                ""
-              ]
-            },
-            "title": "Composantes du secteur public"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -78,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "15-a-1",
-  "title": "a) aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) produits générés et fonds mobilisés par les instruments économiques en rapport avec la biodiversité"
+  "title": "a) Aide publique au développement consacrée à la préservation et à l’exploitation durable de la biodiversité et b) recettes générées et fonds mobilisés par les instruments économiques liés à la biodiversité"
 }

@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice d’orientation agricole des dépenses publiques",
+                "Part de la valeur ajoutée de l’agriculture dans le PIB (%)",
+                "Part de l’agriculture dans les dépenses publiques (%)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice",
+                "Pourcentage (%)",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",

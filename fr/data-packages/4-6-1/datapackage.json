@@ -16,6 +16,30 @@
             "title": "Année"
           },
           {
+            "name": "Proficiency level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2 ou moins",
+                "3 ou plus",
+                ""
+              ]
+            },
+            "title": "Niveau de compétence"
+          },
+          {
+            "name": "Skill",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alphabétisme",
+                "Arithmétique",
+                ""
+              ]
+            },
+            "title": "Compétences"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -40,29 +64,24 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "Total",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Groupe d'âge totale",
+                "Total",
                 "16 à 24 ans",
                 "25 à 34 ans",
                 "35 à 44 ans",
@@ -74,28 +93,9 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Skill",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Alphabétisme",
-                "Arithmétique",
-                ""
-              ]
-            },
-            "title": "Compétences"
-          },
-          {
-            "name": "Proficiency level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2 ou moins",
-                "3 ou plus",
-                ""
-              ]
-            },
-            "title": "Niveau de compétence"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

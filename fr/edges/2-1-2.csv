@@ -1,3 +1,7 @@
 From,To
-Géographie,Type de famille économique
-Type de famille économique,Niveau de sécurité alimentaire du ménage
+Niveau de sécurité alimentaire du ménage,Géographie
+Géographie,Sexe
+Géographie,Minorité visible
+Géographie,Population autochtone
+Sexe,Groupe d'âge
+Sexe,Type de famille économique

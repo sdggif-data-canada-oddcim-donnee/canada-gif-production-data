@@ -16,27 +16,19 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pourcentage (%)",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "Type of natural disaster",
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épidémie",
-                "Météorologique - Tornade",
+                "Tempête hivernale",
+                "Inondation",
+                "Orages et orages graves",
+                "Tornade",
+                "Feu de forêt",
+                "Épisode de chaleur",
+                "Tempête-non précisée/autre",
+                "Épidémie",
+                "Éboulement",
                 ""
               ]
             },

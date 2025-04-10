@@ -16,10 +16,24 @@
             "title": "Year"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sub-total, not in employment, education or training (NEET)",
+                "Unemployed, Not in employment, education or training (NEET)",
+                "Not in the labour force, Not in employment, education or training (NEET)",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -37,19 +51,6 @@
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sub-total, not in employment, education or training (NEET)",
-                "Unemployed, Not in employment, education or training (NEET)",
-                "Not in the labour force, Not in employment, education or training (NEET)",
-                ""
-              ]
-            },
-            "title": "Status"
           },
           {
             "name": "Sex",

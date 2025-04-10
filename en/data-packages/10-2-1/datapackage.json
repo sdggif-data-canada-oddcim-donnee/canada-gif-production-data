@@ -16,37 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Atlantic provinces",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Prairie provinces",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Quebec, Québec",
-                "Quebec, Montréal",
-                "Ontario/Quebec, Ottawa-Gatineau",
-                "Toronto, Ontario",
-                "Winnipeg, Manitoba",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Vancouver, British Columbia",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "Persons in low income",
             "type": "string",
             "constraints": {
@@ -67,6 +36,37 @@
               ]
             },
             "title": "Persons in low income"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic provinces",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Toronto, Ontario",
+                "Winnipeg, Manitoba",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, British Columbia",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "GeoCode",

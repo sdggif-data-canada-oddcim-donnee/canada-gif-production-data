@@ -15,6 +15,25 @@
             "type": "integer"
           },
           {
+            "name": "Causes of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Malignant neoplasms",
+                "Diabetes mellitus",
+                "Diseases of heart",
+                "Essential hypertension and hypertensive renal disease",
+                "Cerebrovascular diseases",
+                "Atherosclerosis",
+                "Aortic aneurysm and dissection",
+                "Chronic lower respiratory diseases",
+                "Pneumoconioses and chemical effects",
+                "Pneumonitis due to solids and liquids",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Age at time of death",
             "type": "string",
             "constraints": {
@@ -60,22 +79,6 @@
                 "Both sexes",
                 "Males",
                 "Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Causes of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Malignant neoplasms",
-                "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",
-                "Diabetes mellitus",
-                "Diseases of heart",
-                "Influenza and pneumonia",
-                "Acute bronchitis and bronchiolitis",
-                "Chronic lower respiratory diseases",
                 ""
               ]
             }

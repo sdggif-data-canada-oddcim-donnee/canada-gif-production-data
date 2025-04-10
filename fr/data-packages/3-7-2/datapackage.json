@@ -16,11 +16,10 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -37,7 +36,7 @@
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Lieu de résidence de la mère"
           },
           {
             "name": "Value",

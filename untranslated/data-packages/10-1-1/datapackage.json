@@ -15,6 +15,52 @@
             "type": "string"
           },
           {
+            "name": "Household income quintile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All quintiles",
+                "Lowest quintile",
+                "Second quintile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Household income decile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total deciles",
+                "Lowest decile",
+                "Second decile",
+                "Third decile",
+                "Fourth decile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Series",
             "type": "string",
             "constraints": {
@@ -26,21 +72,8 @@
             }
           },
           {
-            "name": "Percentile",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All quintiles",
-                "Lowest quintile",
-                "Second quintile",
-                "Total deciles",
-                "Lowest decile",
-                "Second decile",
-                "Third decile",
-                "Fourth decile",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

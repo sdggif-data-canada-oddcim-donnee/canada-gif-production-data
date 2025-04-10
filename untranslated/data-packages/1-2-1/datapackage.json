@@ -15,36 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montreal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Quebec, Quebec",
-                "Saskatchewan",
-                "Toronto, Ontario",
-                "Vancouver, British Columbia",
-                "Winnipeg, Manitoba",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Persons in low income",
             "type": "string",
             "constraints": {
@@ -64,6 +34,44 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Montréal, Quebec",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Québec, Quebec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba",
+                "Yukon",
+                "Yukon and Northwest Territories",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

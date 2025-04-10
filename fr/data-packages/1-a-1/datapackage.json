@@ -20,15 +20,15 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Aide plurisectorielle pour les services sociaux de base",
+                "Aide alimentaire dévelopmentale",
                 "Éducation de base",
                 "Santé de base",
-                "Approvisionnement en eau et assainissement",
-                "Aide multisectorielle pour les services sociaux de base",
-                "Aide alimentaire au développement",
+                "Distribution d'eau et assainissement",
                 ""
               ]
             },
-            "title": "Type d’aide à la réduction de la pauvreté"
+            "title": "Type d'aide à la réduction de la pauvreté"
           },
           {
             "name": "Value",

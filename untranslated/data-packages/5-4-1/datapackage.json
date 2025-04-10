@@ -15,30 +15,27 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
+                "Total, unpaid work activities",
+                "Unpaid household work",
+                "Care of children under 18 years",
+                "Care of adults",
+                "Shopping for goods or services",
                 ""
               ]
             }
           },
           {
-            "name": "Activity group",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Unpaid work activities",
-                "Household chores",
-                "Care of household children under 18 years",
-                "Care of household adults",
-                "Shopping for goods or services",
+                "Men+",
+                "Women+",
+                "Total, all persons",
                 ""
               ]
             }
@@ -61,15 +58,23 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Recherche médicale",
                 "Santé de base",
-                "Recherche médicale\n",
                 ""
               ]
             },
-            "title": "Type d'aide\n"
+            "title": "Type d'aide"
           },
           {
             "name": "Value",

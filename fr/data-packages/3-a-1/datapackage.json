@@ -16,35 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Les deux sexes",
-                "Femme",
-                "Homme",
-                ""
-              ]
-            },
-            "title": "Sexe"
-          },
-          {
-            "name": "Age Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15-19 ans\n",
-                "20-24 ans\n",
-                "25+ ans",
-                "25-44 ans\n",
-                "45+ ans",
-                "Tous les groupes d’âge",
-                ""
-              ]
-            },
-            "title": "Groupe d’âge"
-          },
-          {
             "name": "Tobacco Product",
             "type": "string",
             "constraints": {
@@ -63,6 +34,35 @@
               ]
             },
             "title": "Produits du tabac"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Femme",
+                "Homme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15-19 ans",
+                "20-24 ans",
+                "25+ ans",
+                "25-44 ans",
+                "45+ ans",
+                "Tous les groupes d’âge",
+                ""
+              ]
+            },
+            "title": "Groupe d’âge"
           },
           {
             "name": "Value",

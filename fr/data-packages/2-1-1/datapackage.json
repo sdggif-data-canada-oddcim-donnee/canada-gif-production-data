@@ -16,78 +16,37 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Provinces de l'Atlantique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Provinces des Prairies",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "Pourcentage (%)",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Unités"
           },
           {
-            "name": "data.Economic family type",
+            "name": "COMMENT_OBS_0",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les personnes",
-                "Personnes dans les familles économiques",
-                "Personnes dans les familles de personnes âgées",
-                "Personnes dans les couples de personnes âgées",
-                "Personnes dans les autres familles de personnes âgées",
-                "Personnes dans les familles non âgées",
-                "Personnes dans les couples",
-                "Personnes dans les familles comptant un couple avec des enfants",
-                "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
-                "Personnes dans les familles monoparentales",
-                "Personnes dans les familles monoparentales ayant un homme à leur tête",
-                "Personnes dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes dans les autres familles de personnes non âgées",
-                "Personnes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
+                "Les valeurs affichées de 2,5 pourraient signifier une prévalence de la sous-alimentation inférieure à 2,5 %",
                 ""
               ]
             },
-            "title": "Type de famille économique"
+            "title": "COMMENT_OBS_0"
           },
           {
-            "name": "data.Household food security status",
+            "name": "COMMENT_OBS_1",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sécurité alimentaire",
-                "Insécurité alimentaire",
-                "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée ou grave",
-                "Insécurité alimentaire modérée",
-                "Insécurité alimentaire grave",
+                "Les estimations sont basées sur des valeurs projetées.",
                 ""
               ]
             },
-            "title": "Niveau de sécurité alimentaire du ménage"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "title": "COMMENT_OBS_1"
           },
           {
             "name": "Value",

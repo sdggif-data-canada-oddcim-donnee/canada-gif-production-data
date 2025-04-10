@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Physical violence",
-                "Sexual violence",
+                "Violence physique",
+                "Violence sexuelle",
                 ""
               ]
             },
@@ -49,7 +49,7 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 à 64 ans",
-                "65 years and older",
+                "65 ans et plus",
                 ""
               ]
             },
@@ -60,28 +60,28 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Heterosexual",
-                "Lesbian or gay",
-                "Bisexual",
+                "Hétérosexuel",
+                "Lesbienne ou gai",
+                "Bisexuel",
                 ""
               ]
             },
-            "title": "Sexual orientation"
+            "title": "Orientation sexuelle"
           },
           {
-            "name": "First Nations, Metis, or Inuit identity",
+            "name": "First Nations, Métis, or Inuit identity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Autochtone",
-                "First Nations",
-                "Metis",
+                "Personne autochtone",
+                "Premières Nations",
+                "Métis",
                 "Inuit",
                 "Personne non autochtone",
                 ""
               ]
             },
-            "title": "First Nations, Metis, or Inuit identity"
+            "title": "Identité autochtone (Première Nation, Métis ou Inuit)"
           },
           {
             "name": "Visible minority",
@@ -100,37 +100,37 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Has a disability",
-                "Does not have a disability",
+                "Personne ayant une incapacité",
+                "Personne n'ayant aucune incapacité",
                 ""
               ]
             },
-            "title": "Person with disability"
+            "title": "Personne ayant une incapacité"
           },
           {
             "name": "Immigrant status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Immigrant",
-                "Non-immigrant",
+                "Personne immigrante",
+                "Personne non immigrante",
                 ""
               ]
             },
-            "title": "Immigrant status"
+            "title": "Status d'immigrant"
           },
           {
             "name": "Marital status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Married or common-law",
-                "Separated, divorced, or widowed",
-                "Single, never married",
+                "Marié ou vivant en union libre",
+                "Séparé, divorcé ou veuf",
+                "Célibataire, jamais marié",
                 ""
               ]
             },
-            "title": "Situation de famille"
+            "title": "État matrimonial"
           },
           {
             "name": "Value",

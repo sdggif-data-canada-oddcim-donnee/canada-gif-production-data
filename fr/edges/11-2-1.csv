@@ -1,2 +1,5 @@
 From,To
-Demographic and geodemographic,Géographie
+Distance-capacité de la zone de service de transport public,Géographie
+Géographie,Emplacement
+Emplacement,Genre
+Genre,Démographique and socio-économique

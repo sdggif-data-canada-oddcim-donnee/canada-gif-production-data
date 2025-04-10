@@ -16,37 +16,6 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Provinces de l'Atlantique",
-                "Colombie-Britannique",
-                "Calgary, Alberta",
-                "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montréal, Québec",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Québec",
-                "Provinces des Prairies",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Québec, Québec",
-                "Saskatchewan",
-                "Toronto, Ontario",
-                "Vancouver, Colombie-Britannique",
-                "Winnipeg, Manitoba",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
             "name": "Persons in low income",
             "type": "string",
             "constraints": {
@@ -67,6 +36,46 @@
               ]
             },
             "title": "Personnes à faible revenu"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Provinces de l'Atlantique",
+                "Colombie-Britannique",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Montréal, Québec",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Provinces des Prairies",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Québec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, Colombie-Britannique",
+                "Winnipeg, Manitoba",
+                "Yukon",
+                "Yukon et les Territoires du Nord-Ouest",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

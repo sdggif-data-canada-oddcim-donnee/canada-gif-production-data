@@ -16,10 +16,24 @@
             "title": "Année"
           },
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sous-total, ni en emploi, ni aux études, ni en formation (NEET)",
+                "Chômeurs, Ni en emploi, ni aux études, ni en formation (NEET)",
+                "Inactifs, Ni en emploi, ni aux études, ni en formation (NEET)",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -37,19 +51,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sous-total, ni en emploi, ni aux études, ni en formation (NEET)",
-                "Chômeurs, Ni en emploi, ni aux études, ni en formation (NEET)",
-                "Inactifs, Ni en emploi, ni aux études, ni en formation (NEET)",
-                ""
-              ]
-            },
-            "title": "Status"
           },
           {
             "name": "Sex",

@@ -1,3 +1,7 @@
 From,To
-Geography,Economic family type
-Economic family type,Household food security status
+Household food security status,Geography
+Geography,Sex
+Geography,Visible minority
+Geography,Indigenous population
+Sex,Age group
+Sex,Economic family type

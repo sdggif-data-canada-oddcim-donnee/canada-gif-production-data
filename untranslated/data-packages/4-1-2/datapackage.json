@@ -15,13 +15,24 @@
             "type": "string"
           },
           {
+            "name": "Graduation rate",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "On-time",
+                "Extended-time",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
-                "Nova Scotia",
                 "New Brunswick",
                 "Quebec",
                 "Ontario",
@@ -31,17 +42,7 @@
                 "British Columbia",
                 "Northwest Territories",
                 "Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Graduation rate",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "On-time",
-                "Extended-time",
+                "Nova Scotia",
                 ""
               ]
             }
@@ -64,7 +65,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

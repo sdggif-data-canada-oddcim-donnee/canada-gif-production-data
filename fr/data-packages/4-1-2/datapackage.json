@@ -16,13 +16,25 @@
             "title": "Année"
           },
           {
+            "name": "Graduation rate",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Délai prévu",
+                "Délai plus long",
+                ""
+              ]
+            },
+            "title": "Taux d'obtention du diplôme"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
                 "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
@@ -32,22 +44,11 @@
                 "Colombie-Britannique",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Nouvelle-Écosse",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Graduation rate",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "On-time",
-                "Extended-time",
-                ""
-              ]
-            },
-            "title": "Graduation rate"
           },
           {
             "name": "Gender",
@@ -69,7 +70,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Valeur"
           }
         ]

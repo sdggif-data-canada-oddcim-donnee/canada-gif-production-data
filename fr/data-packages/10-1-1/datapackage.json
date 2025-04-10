@@ -16,6 +16,55 @@
             "title": "Année"
           },
           {
+            "name": "Household income quintile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tous les quintiles",
+                "Quintile inférieur",
+                "Deuxième quintile",
+                ""
+              ]
+            },
+            "title": "Quintile de revenu du ménage"
+          },
+          {
+            "name": "Household income decile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total des déciles",
+                "Décile inférieur",
+                "Deuxième décile",
+                "Troisième décile",
+                "Quatrième décile",
+                ""
+              ]
+            },
+            "title": "Décile de revenu du ménage"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
             "name": "Series",
             "type": "string",
             "constraints": {
@@ -28,22 +77,9 @@
             "title": "Series"
           },
           {
-            "name": "Percentile",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Tous les quintiles",
-                "Quintile inférieur",
-                "Deuxième quintile",
-                "Total des déciles",
-                "Décile inférieur",
-                "Deuxième décile",
-                "Troisième décile",
-                "Quatrième décile",
-                ""
-              ]
-            },
-            "title": "Centile"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

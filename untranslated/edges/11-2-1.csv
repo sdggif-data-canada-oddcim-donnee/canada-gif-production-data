@@ -1,2 +1,5 @@
 From,To
-Demographic and geodemographic,Geography
+Distance-capacity public transit service area,Geography
+Geography,Location
+Location,Gender
+Gender,Demographic and socio-economic

@@ -16,73 +16,103 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ratio",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
-            "name": "Educational indicator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux de participation à l’apprentissage organisé",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en mathématiques",
-                "La proportion des jeunes de 15 ans atteignant au moins un niveau minimum de compétence (PISA niveau 2) en lecture",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA score de 226) en compétences en numératie fonctionnelle",
-                "La proportion des adultes (25 à 64 ans) atteignant au moins un niveau fixe de compétence (PEICA un score 226) en compétences en littératie",
-                ""
-              ]
-            },
-            "title": "Educational indicator"
-          },
-          {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de parité entre les sexes",
-                "Indice de statut économique, social et culturel (SESC)",
-                "Indice de parité entre millieu urban et rural (IPM)",
-                "Indice de parité du niveau de formation des parents",
+                "Taux d'achèvement",
+                "Taux de scolarité",
+                "Taux de participation des jeunes et des adultes à l'éducation et à la formation formelles et non formelles au cours des 12 derniers mois",
+                "Proportion d'élèves atteignant au moins un niveau minimum de compétence en mathématiques",
+                "Proportion d'élèves atteignant au moins un niveau minimum de compétence en lecture",
                 ""
               ]
             },
             "title": "Series"
           },
           {
-            "name": "Geography",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "Indice de parité entre les sexes ajusté",
+                "Indice de parité entre milieu urbain et rural ajusté",
+                "Indice de parité de richesse ajusté",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Unités"
           },
           {
-            "name": "GeoCode",
+            "name": "Education level",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "Éducation primaire",
+                "Éducation secondaire de premier cycle",
+                "Éducation secondaire de deuxième cycle",
+                "Au moins une partie de l'éducation primaire (CITE 1)",
+                "A complété une éducation primaire ou supérieure",
+                "A complété une éducation secondaire de premier cycle ou supérieure",
+                "A complété une éducation secondaire de deuxième cycle ou supérieure",
+                "A complété une éducation post-secondaire non tertiaire ou supérieure",
+                "A complété une éducation tertiaire de cycle court ou supérieure",
+                "A complété un baccalauréat ou éducation équivalente ou supérieure",
+                "A complété une maîtrise ou éducation équivalente ou supérieure",
+                "A complété un doctorat ou éducation équivalente",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15-24 years old",
+                "15-64 years old",
+                "25-54 years old",
+                "55-64 years old",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Femme",
+                "Homme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urbain",
+                ""
+              ]
+            },
+            "title": "Emplacement"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Donnée modélisée",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",

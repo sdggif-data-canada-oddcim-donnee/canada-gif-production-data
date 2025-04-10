@@ -16,23 +16,11 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux par 100 000 habitants",
-                "Nombre",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Taux par 100 000 habitants",
+                "Taux pour 100 000 personnes",
                 "Nombre",
                 ""
               ]
@@ -44,13 +32,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Météorologique - Inondation",
-                "Météorologique - Tempête",
-                "Météorologique - Tornade",
-                "Météorologique - Feu de forêt",
-                "Météorologique - Tempête hivernale",
-                "Météorologique - Épisode de chaleur",
-                "Météorologique - Ouragan",
+                "Tempête-non précisée/autre",
+                "Feu de forêt",
+                "Orages et orages graves",
+                "Inondation",
+                "Tempête hivernale",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tornade",
+                "Épisode de chaleur",
                 ""
               ]
             },
@@ -67,5 +56,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-1",
-  "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, par 100 000 personnes"
+  "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
 }

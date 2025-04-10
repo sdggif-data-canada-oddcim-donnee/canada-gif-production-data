@@ -15,11 +15,10 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",

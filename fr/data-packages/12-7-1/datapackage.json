@@ -16,6 +16,21 @@
             "title": "Année"
           },
           {
+            "name": "Sub-indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sous-indicateur A: Existence d'une politique ou d'un plan d'action MDP et/ou d'exigences réglementaires MDP",
+                "Sous-indicateur B: Le cadre réglementaire des marchés publics est propice au MDP",
+                "Sous-indicateur C: Un soutien pratique est apporté aux praticiens des marchés publics pour la mise en œuvre du MDP",
+                "Sous-indicateur D: Critères d'achat / normes d'achat / exigences du MDP",
+                "Sous-indicateur E: Existence d'un système de suivi du MDP",
+                ""
+              ]
+            },
+            "title": "Sous-indicateurs"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Valeur"

@@ -16,11 +16,10 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Place of residence of mother",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -37,7 +36,7 @@
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Place of residence of mother"
           },
           {
             "name": "Value",
